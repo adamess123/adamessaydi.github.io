@@ -2,6 +2,9 @@ h1 {
     text-align: center;
     margin-top: 30px;
 }
+h2 {
+    text-align: center;
+}
 body {
     background: #2a2738;
     color: #e5e5f0;
@@ -28,6 +31,7 @@ div {
     justify-content: center;
     max-width: 100%; 
     height: auto;
+    width:70%
 }
 .flex-container {
     display: flex;
@@ -58,6 +62,7 @@ div {
     display: flex;
     gap: 30px;
     margin: auto;
+    padding: 0;
 }
 .nav-links li a {
     text-decoration: none;
