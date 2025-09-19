@@ -150,8 +150,18 @@ div {
     }
 }
 
-@media (max-width: 480px) {
-    .center-iframe {
-        min-height: 500px; 
+.resume-img {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .resume-pdf {
+        display: none; 
+    }
+
+    .resume-img {
+        display: block; 
     }
 }
