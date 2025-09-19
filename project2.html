@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="styles.css">
+
     <title>Project2</title>
-     <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="resume.html">Resume</a>
-        <!-- <a href="about.html">About</a> -->
-        <a href="projects.html">Projects</a>
-      </nav>
+    <nav class="nav">
+      <ul class ="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
 </head>
 
+<header>
+  <h1>Philanthropy Finder</h1>
+</header>
 <body>
-    <header>
-        <h1>Philanthropy Finder</h1>
-        <div class="content">
-            <p>
-
-            </p>
-        </div>
-    </header>
+    <div class="content">
+        <p>PhilantropyFinder is a website made for discovering and connecting with charities and nonprofit organizations within the user's community. The idea of this project was to make it easy for anyone to find and support causes that they care about, and to help nonprofits and other charitable organizations connect with these individuals.</p>
+        <p>The website is made to be user-friendly and accessible, with a simple but effective search function that lets the user find charities based on location and what cause they support. Each organization has a profile with their name, address, distance, and cause all listed.</p>
+        <p>The languages and frameworks used were Flask, Python, HTML/CSS, and JavaScript. Flask_login was used for login functionality, Flask_wtf for form objects, Flask_sqlalchemy for database connection, Flask_bcrypt for encryption, and Flask_mail for email verification.</p>
+        <p>The search codebase made use of Pandas for uploading CSV files containing the mass amounts of charity data from around the country, and AST for evaluating coordinate strings as a tuple.</p>
+        <video class="video" width="70%" height="65%" controls>
+          <source src="media/philanthropyFinderDemo.mp4" type="video/mp4">
+        </video>
+    </div>
 </body>

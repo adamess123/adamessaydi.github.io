@@ -1,44 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
-        .content {
-            max-width: 800px;
-            margin: 20px;
+        .fa:hover {
+            opacity: 0.9;
         }
-        
-        .center-iframe {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 80%;
-            height: 90vh;
-            margin-top: 40px;
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
         }
-        .nav {
+
+        .fa-github {
+            background: black;
+            color: white;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 40px;
+            width: 60px;
+            text-decoration: none;
+            margin: 5px 80px;
+        }
+
+        .fa-container {
             text-align: center;
-            margin-top: 20px;
+        }
+
+        h3 {
+            margin-top: 40px;
+            text-align: center;
         }
     </style>
-    
+
     <title>Home</title>
-     <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="resume.html">Resume</a>
-        <!-- <a href="about.html">About</a> -->
-        <a href="projects.html">Projects</a>
-      </nav>
+    <nav class="nav">
+        <ul class ="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
 </head>
+
+<header>
+    <h1>Hello, my name is Adam Essaydi</h1>
+</header>
+
 <body>
-    <header>
-        <h1>Hello, my name is Adam Essaydi</h1>
-        <div class="content">
-            <p>I am an undergrad student at UCF, majoring in Computer Science. My most proficient languages are C++ and Python, 
-                although I have experience in several other languages as well. I'm a member of UCF Knight Hacks and Secretary 
-                for the Japanese Language Club, which encompass two of my main passions in life.</p>
+    <div class="content">
+        <p>I am an undergrad student at UCF, majoring in Computer Science. My most proficient languages are C++ and Python, 
+            although I have experience in several other languages as well. I'm a member of UCF Knight Hacks and Secretary 
+            for the Japanese Language Club, which encompass two of my main passions in life.</p>
+        <h3>Social Media</h3>
+        <div class="fa-container">
+            <a href="https://www.linkedin.com/in/adamess123/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://github.com/adamess123" target="_blank" class="fa fa-github"></a>
         </div>
-    </header>
+    </div>
+    
 </body>
 </html>

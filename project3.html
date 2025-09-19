@@ -3,39 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      body {
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            min-height: 100vh;
-            text-align: center;
-        }   
-    </style>
-    <title>Project2</title>
-     <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="resume.html">Resume</a>
-        <!-- <a href="about.html">About</a> -->
-        <a href="projects.html">Projects</a>
-      </nav>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Project3</title>
+    <nav class="nav">
+      <ul class ="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
 </head>
 
-<body>
-  <header>
-      <h1>Optimal Collection of Pollution Data</h1>
-      <div class="content">
-          <p>This project was based off of the Budget Maximum Coverage Problem by Samir Khuller, Anna Mossy, and Joseph Seffi Naor.</p>
+<header>
+  <h1>Optimal Collection of Pollution Data</h1>
+</header>
 
-          <p>Utilizing libraries such a cmath, queue, and vector, I was able to develop an algorithm similar to the pseudocode provided in the paper.</p>
-            
-          <p>The main purpose of this project is to collect pollution data from data sensors from different areas in a city in a way that maximizes coverage, while remaining within budget. Each data sensor has a certain area that it covers, with any data sensors within that range contributing towards it's weight.</p>
-            
-          <p>These data sensors are spread out depending on two forms of distribution, normal and cluster. Each cluster in the cluster distribution is set at a certain point in the city. Income is based on the cluster location, and income then determines the asking price of user data.</p>
-            
-          <p>For convenience purposes, the output displays the improvements my code has over a pure greedy algorithm and a random algorithm. I ran 100k different simulated cities, with each city having 4 clusters. After multiple runs, my program has achieved a consistent 39% improvement over a random selection algorithm, and a 29% improvement over a pure greedy algorithm.</p>
-      </div>
-  </header>
+<body>
+  <div class="content">
+    <p>This project was based off of the Budget Maximum Coverage Problem by Samir Khuller, Anna Mossy, and Joseph Seffi Naor.</p>
+    <p>Utilizing libraries such a cmath, queue, and vector, I was able to develop an algorithm similar to the pseudocode provided in the paper.</p>
+    <p>The main purpose of this project is to collect pollution data from data sensors from different areas in a city in a way that maximizes coverage, while remaining within budget. Each data sensor has a certain area that it covers, with any data sensors within that range contributing towards it's weight.</p>
+    <p>These data sensors are spread out depending on two forms of distribution, normal and cluster. Each cluster in the cluster distribution is set at a certain point in the city. Income is based on the cluster location, and income then determines the asking price of user data.</p>
+    <p>For convenience purposes, the output displays the improvements my code has over a pure greedy algorithm and a random algorithm. I ran 100k different simulated cities, with each city having 4 clusters. After multiple runs, my program has achieved a consistent 39% improvement over a random selection algorithm, and a 29% improvement over a pure greedy algorithm.</p>
+    <iframe class="center-iframe" src="media/khuller1999.pdf"></iframe>
+  </div>
 </body>
